@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bootstrap learn</title>
+        <!-- this is cdn llink for implement hte bootstrap and also add jquery -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    </head>
+    <!-- container  -->
+    <div class="container  mt-3 border bg-danger text-white">
+        <p>I m container class have fixed width and by default margin in left and right 15px and Change in different screen size</p>
+    </div>
+    <div class="container-sm  mt-3 border ">
+        <p>I m container class have fixed width and by default margin in left and right 15px and Change in different screen size</p>
+    </div>
+    <div class="container-md  mt-3 border ">
+        <p>I m container class have fixed width and by default margin in left and right 15px and Change in different screen size</p>
+    </div>
+    <div class="container-fluid ">
+        <p>I am container-fluid class have 100% width ,means full width occupy and no change in breakpoints</p>
+    </div>
+
+    <!-- grid  -->
+    <div class="row">
+        <div class="col border">extra small devices</div>
+        <div class="col-sm border">2</div>
+        <div class="col-md">3</div>
+        <div class="col-lg">4</div>
+    </div>
+    <!-- table  -->
+    <div class="container">
+        <p class="text-center text-danger font-weight-bold">this bootstrap table </p>
+        <table class="table">
+            <thead>
+                <!-- in this some built in class like table,strip or etc ,which help to make the smooth andnice table -->
+                <tr>
+                    <th>S.no</th>
+                    <th>name</th>
+                    <th>age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>jack</td>
+                    <td>23</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>jack</td>
+                    <td>23</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>jack</td>
+                    <td>23</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <table class="table-bordered text-center ">
+            <thead>
+                <!-- in this some built in class like table,strip or etc ,which help to make the smooth andnice table -->
+                <tr>
+                    <th>S.no</th>
+                    <th>name</th>
+                    <th>age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>jack</td>
+                    <td>23</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>jack</td>
+                    <td>23</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>jack</td>
+                    <td>23</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <br><br>
+    <!-- image class -->
+    <p class="text-center">these are img class </p>
+    <img src="https://www.w3schools.com/bootstrap4/paris.jpg" class="rounded px-3">
+    <img src="https://www.w3schools.com/bootstrap4/paris.jpg" class="rounded-circle px-3">
+    <img src="https://www.w3schools.com/bootstrap4/paris.jpg" class="img-thumbnail px-3">
+
+    <br>
+    <!-- jumbotron -->
+    <div class="jumbotron">
+        <h1>this iumbotron ,it appera grey box for more attention and we use full width jumbotron</h1>
+    </div>
+    <br><br>
+    <div class="jumbotron">
+        <div class="container"><h1>this iumbotron ,it appera grey box for more attention and we use full width jumbotron</h1></div>
+    </div>
+    <!-- alert and button ,both have many classes to show the content   -->
+    <div class="alert alert-success">done </div>
+    <div class="btn btn-primary mx-5">cllick</div>
+
+    <br><br>
+    <!-- card -->
+    <div class="container">
+        <p class="text-center font-weight-bold">A basic card is created with the .card class, and content inside the card has a .card-body class:</p>
+        <div class="card" style="width:300px">
+            <img src="https://www.w3schools.com/bootstrap4/img_avatar1.png" class="card-img-top" alt="card-name" style="width:100%" >
+            <div class="card-body">
+                
+                    <h4 class="card-title">Duke </h4>
+                    <p class="card-text">Im developer and xyz</p>
+
+                
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#">Navbar</a>
+      
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+    <body>
+
+    </body>
+</html>
